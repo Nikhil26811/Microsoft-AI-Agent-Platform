@@ -1,5 +1,5 @@
 
-# 📘 Microsoft AI Agent Platform - Java Implementation
+# 📘 Microsoft AI Agent Platform 
 
 This is a full-stack project that delivers an **AI-powered enterprise Java assistant** using a **Spring Boot backend** and a **Vite + React + TypeScript frontend**. It aims to streamline Java development through intelligent assistance, real-time JVM monitoring, and seamless integration with **Azure OpenAI**.
 
