@@ -1,4 +1,3 @@
-![architecture](https://github.com/user-attachments/assets/503ed7c8-db68-4b2b-9ab0-56ac6c31a466)
 # 📘 Microsoft AI Agent Platform 
 
 This is a full-stack project that delivers an **AI-powered enterprise Java assistant** using a **Spring Boot backend** and a **Vite + React + TypeScript frontend**. It aims to streamline Java development through intelligent assistance, real-time JVM monitoring, and seamless integration with **Azure OpenAI**.
@@ -19,10 +18,12 @@ This is a full-stack project that delivers an **AI-powered enterprise Java assis
 
 ## 🧠 AI Agent Design Diagram
 This design diagram showcases the user interaction flow, including developer input, web interface, AI agent processing, and supporting systems like monitoring and data loss prevention.
+
  ![Diagram](https://github.com/user-attachments/assets/d10f589f-3b21-4823-b317-42ed051d9a15)
   
 ## 🔧 AI Agent Architecture Diagram
 This diagram provides a high-level view of how core components like the frontend, backend, Azure OpenAI integration, and storage systems interact.
+
   ![architecture](https://github.com/user-attachments/assets/1c6ca366-dbb1-41b3-a09c-b8d0e0d689e2)
 
   
