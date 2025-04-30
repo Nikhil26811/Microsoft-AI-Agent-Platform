@@ -1,0 +1,46 @@
+
+# Microsoft AI Agent Platform - Java Spring Boot Configuration
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: microsoft-ai-agent-platform
+  jackson:
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
+    date-format: yyyy-MM-dd'T'HH:mm:ss.SSS'Z'
+
+# Logging configuration
+logging:
+  level:
+    root: INFO
+    com.microsoft.ai.agent: DEBUG
+    org.springframework: INFO
+
+# Agent configuration settings (default values, can be overridden)
+agent:
+  name: Enterprise Java Assistant
+  id: java-agent-001
+  description: Enterprise-grade Java AI assistant for development teams
+  version: 1.0.0
+  role: assistant
+  capabilities:
+    codeGeneration: true
+    debugging: true
+    documentation: true
+    testing: true
+    apiDesign: true
+  jvm:
+    memory: 4
+    version: java17
+    gc: g1
+    jvmOpts: -XX:MaxGCPauseMillis=200 -XX:ParallelGCThreads=4
+  azure:
+    endpoint: ""
+    apiKey: ""
+    deploymentName: ""
+    model: gpt4
