@@ -59,7 +59,7 @@ This diagram provides a high-level view of how core components like the frontend
 
 ```bash
 # Navigate to the project root
-cd ai-agent-java-genesis
+cd Microsoft-AI-Agent-Platform
 
 # Build the Spring Boot backend
 mvn clean install
@@ -76,7 +76,7 @@ mvn spring-boot:run
 
 #### Using Node:
 ```bash
-cd ai-agent-java-genesis
+cd Microsoft-AI-Agent-Platform
 npm install
 npm run dev
 ```
@@ -94,7 +94,7 @@ bun run dev
 ## 📂 Project Structure
 
 ```
-ai-agent-java-genesis/
+Microsoft-AI-Agent-Platform/
 ├── src/                 # Java backend source (Spring Boot)
 ├── public/              # Static files for frontend
 ├── .gitignore
